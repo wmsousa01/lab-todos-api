@@ -14,13 +14,15 @@
 - run the following commands:
 
   ```
+  mkdir todos-api
+  cd todos-api
   git init
-  npm init
+  npm init -y
   npm i mongoose express
   touch .gitignore
   ```
 
-- Includes node modules and package-lock.json on gitignore file
+- Includes node_modules on .gitignore file
 
 ## Instructions
 
@@ -30,7 +32,7 @@ You will need:
 
 - app.js file -> To be our server, and have all the routes we need
 
-- config folder > db.config.js -> With a function that handle with our mongo connection
+- config folder > db.connection.js -> With a function that handle with our mongo connection
 
 - models folder > Todo.js -> create an Schema instance and export our model Todo
 
