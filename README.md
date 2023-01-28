@@ -42,7 +42,7 @@ You will need:
 Create a `Todo` model . The schema should have the following fields:
 
 - **title** - Type `String`. It should be required.
-- **completed** - Type `Bollean`, should have default `false` 
+- **completed** - Type `Boolean`, should have default `false` 
 - **timestamps** - use, timstamps config of mongoose
 
 ### Iteration 3 - Api Routes
