@@ -52,8 +52,8 @@ Ok, with the model created lets start to create our routes, for complete CRUD.
 | Method | Endpoint   | Payload                                | Response  | Action                     |
 | ------ | ---------- | -------------------------------------- | --------- | -------------------------- |
 | GET    | /todos     | \-                                     | \[todos\] | Get All Todos form DB      |
-| POST   | /todos     | {"title":String, "completed": Bollean} | {todo}    | Create New Todo            |
-| PUT    | /todos/:id | {"title":String, "completed": Bollean} | {todo}    | Update Existing Todo by Id |
+| POST   | /todos     | {"title":String, "completed": Boolean} | {todo}    | Create New Todo            |
+| PUT    | /todos/:id | {"title":String, "completed": Boolean} | {todo}    | Update Existing Todo by Id |
 | DELETE | /todos/:id | \-                                     | \-        | Deletes todo               |
 
 
