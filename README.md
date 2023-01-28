@@ -34,7 +34,7 @@ You will need:
 
 - config folder > db.connection.js -> With a function that handle with our mongo connection
 
-- models folder > Todo.js -> create an Schema instance and export our model Todo
+- models folder > Todo.model.js -> create an Schema instance and export our model Todo
 
 
 ### Iteration 2 - Todo Schema
