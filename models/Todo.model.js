@@ -18,7 +18,11 @@ const taskSchema = new Schema({
         type: Boolean,
         default: false
     },
+    user: {
+            type: Schema.Types.ObjectId,
+            ref: "User"
+    }
 
 }, { timestamps: true })
 
-export default model('Task', taskSchema)
+export default model('Todo', taskSchema)
